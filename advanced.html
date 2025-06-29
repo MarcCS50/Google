@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Google</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html">
+                    <img id="advanced-logo" src="Logo.svg" alt="Google Logo">
+                </a>
+            </nav>
+            <nav>
+                <a class="nav-right" href="index.html">Go Back To Google Search</a>
+            </nav>
+        </header>
+        <main>
+            <p id="h1-advanced">Advanced Search</p>
+            <div class="div-advanced">
+                <div class="description">
+                    <p class="h2-advanced">Find pages with...</p>
+                    <p class="p-advanced">To do this in the search box.</p>
+                </div>    
+                <form id="form" action="https://www.google.com/search" method="GET">
+                    <div class="row">
+                        <div class="row-left">
+                            <p>all these words:</p>
+                        </div>
+                        <div class="row-right">
+                            <input class="advanced-input" type="text" name="as_q" autocomplete="off">
+                        </div>
+                        <div class="row-description">
+                            <p>Type the important words: <span class="highlight">tri-colour rat terrier</span></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="row-left">
+                            <p>this exect word or phrase:</p>
+                        </div>
+                        <div class="row-right">
+                            <input class="advanced-input" type="text" name="as_epq" autocomplete="off">
+                        </div>
+                        <div class="row-description">
+                            <p>Put exact words in quotes: <span class="highlight">"rat terrier"</span></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="row-left">
+                            <p>any of these words:</p>
+                        </div>
+                        <div class="row-right">
+                            <input class="advanced-input" type="text" name="as_oq" autocomplete="off">
+                        </div>
+                        <div class="row-description">
+                            <p>Type <span class="highlight">OR</span> between all the words you want: <span class="highlight">miniature OR standard</span></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="row-left">
+                            <p>none of these words:</p>
+                        </div>
+                        <div class="row-right">
+                            <input class="advanced-input" type="text" name="as_eq" autocomplete="off">
+                        </div>
+                        <div class="row-description">
+                            <p>Put a minus sign just before words that you don't want: <span class="highlight">-rodent, -"Jack Russell"</span></p>
+                        </div>
+                    </div>
+                </form>
+            </div>      
+            <div class="advanced-wrapper">
+                <button id="advanced-button" type="submit" form="form">Advanced Search</button>
+            </div> 
+            <div class="spacing"></div>         
+        </main>  
+        <footer>
+            <a href="https://ai.google/societal-impact">🌿 Applying AI towards science and the environment</a>
+        </footer> 
+    </body>
+</html>
